@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  color: white;
+  background-color: #100;
+  opacity: 0.5;
+}
+.nav-left, .nav-right {
+  display: flex;
+  gap: 20px;
+}
+.nav .container-img {
+  width: 10%;
+  height: 100%;
+}
+.nav img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  filter: drop-shadow(0 0 5px rgb(77, 255, 0));
+}
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.nav a:hover {
+  color: rgb(24, 136, 99);
+}
+
+.header {
+  min-height: 500px;
+  padding: 0 24px;
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/0e/e2/43/78/nuestra-imagen-y-esencia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.Concepto {
+  height: 700px;
+  background-image: url(https://st2.depositphotos.com/1921043/9635/i/950/depositphotos_96354898-stock-photo-watercolor-olive-wreath.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.Concepto .concepto-box {
+  margin: 0px auto;
+  border: 200px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  color: #F4EDE3;
+  background-color: rgba(95, 57, 57, 0.802);
+  text-align: center;
+}
+.Concepto .concepto-h3 {
+  font-family: "Srisakdi", cursive;
+}
+
+.FOTOS {
+  height: 1000px;
+  background-color: #FFFFFF;
+  background-image: url(https://media.istockphoto.com/id/453409313/es/vector/olivo-tree.jpg?s=612x612&w=0&k=20&c=n3uAYkwrbCrXehQOC3Hb03iIvq48wZQbFwyVfpghTPE=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.FOTOS .columna {
+  flex: 20%;
+  padding: 12px;
+}
+.FOTOS img {
+  width: 80%;
+  filter: drop-shadow(0 0 5px rgb(77, 255, 0));
+}
+
+.Menu {
+  height: 200px;
+  background-color: #fff4f4;
+}
+
+.Reservas {
+  height: 200px;
+  background-color: #FFFFFF;
+}
+
+.Blog {
+  height: 200px;
+  background-color: rgb(252, 252, 252);
+}
+
+.Vuelve {
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.Siguenos {
+  height: 200px;
+  background-color: blueviolet;
+}
+
+.footer {
+  height: 200px;
+  background-color: rgb(148, 147, 149);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer a {
+  color: #100;
+  text-decoration: none;
+  margin: 1em 0;
+}
+.footer a:hover {
+  color: greenyellow;
+}
+
+@-webkit-keyframes animateLine {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes animateLine {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=styles.css.map */
